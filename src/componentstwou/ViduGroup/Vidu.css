@@ -1,0 +1,76 @@
+.action-vide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vid{
+    float: left;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow:1px 1px 10px 0px rgba(206, 202, 202, 0.856);
+}
+.group-titel{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.title-vid{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    
+}
+.chang-group{
+    float: left;
+    margin-left: 11px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background:linear-gradient(rgba(77, 80, 94, 0.418),rgba(140, 141, 150, 0.144),rgba(77, 80, 94, 0.418));
+    width: 300px;
+    height: 320px;
+}
+.group-titel{
+    flex-direction: column;
+
+}
+.chang-name{
+    font-size: 14px;
+}
+@media only screen and (max-width: 767px){    
+    .chang-group{
+        float: left;
+        margin-left: 50px;
+    }
+    .chang-vid{
+        height: 230px;
+    }
+
+    .vid{
+        height: 300px;
+        width:90% ;
+    }
+
+    .chang-group{
+        height: 300px;
+        
+    }
+   .group-titel{
+    float: left;
+    margin-left: -50px;
+   }
+   .chang-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .chang-titel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-left: -10px;
+   }
+}

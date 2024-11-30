@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.a{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height:390px ;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 10px;
+    flex-direction: row-reverse;
+    background-color: rgb(32, 33, 46);
+    position: relative;
+
+    
+
+}
+
+.a::-webkit-scrollbar{
+   display: none;
+}
+.bo{
+    float: left;
+    margin-left: 10px;
+}
+.bo img{
+    
+    object-fit: cover;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    /* z-index: 100px; */
+}
+.bo-text{
+    width: 270px;
+    height: 100px;
+    border-radius: 0px 0px 5px 5px;
+    /* background: linear-gradient(#333d3d05,#0f0f0fc4,#000000ee,#000000f8); */
+    background: linear-gradient(#27303010,#000000e8,#000000);
+    top:280px ;
+   
+    position: absolute;
+    /* z-index: 600px; */
+    
+}
+.titel-text{
+    float: left;
+    margin-left: -70px;
+    margin-top: 0px;
+    padding: 10px;
+   
+}
+.move-anme{
+    position: absolute;
+    top: 342px;
+    float: left;
+    margin-left: 160px;
+    width: 110px;
+    height: 29px;
+    border: none;
+    border-radius: 15px;
+    color:white;
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+    background-color: #b80303;
+}
+/* .move-anme:hover{
+    background-color: #b80303;
+    border: none;
+
+} */
+/* .bo-text{
+    float: left;
+    margin-top: -20px;
+  
+    
+} */
+
+

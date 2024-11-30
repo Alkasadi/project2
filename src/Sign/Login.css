@@ -1,0 +1,204 @@
+
+
+.button {
+    margin: 5px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .input-single{
+    display: block;
+    margin: 10px 0;
+    width: 270px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 13px;
+    margin-top:10px ;
+    font-size: 16px;
+  }
+  .gro-Submit{
+    color: rgb(255, 0, 0);
+    /* float: right;
+    margin-right: 130px; */
+    margin-top: -15px;
+    font-size: 13px;
+  }
+  form {
+    margin-top: 20px;
+    direction: rtl;
+  }
+  
+.list-single{
+    text-align: center;
+    font-size: 28px;
+    padding: 5px;
+
+  }
+  
+  .login-new{
+    text-align: center;
+  }
+
+  .list-single{
+    color: #ffff;
+  }
+  .login-new{
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: #272e38;
+    border: 1px solid #fabc03;
+    box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.95);
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .submit{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: aliceblue;
+    border: none;
+   
+  }
+  .submit:hover{
+    border: 1px solid rgb(117, 116, 116);
+    box-shadow: 0px 0px 5px 1px #f5c840;
+  }
+  .ds{
+   /* float: left;
+   margin-left: 70px;
+   margin-top: 10px; */
+   padding-bottom: 20px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+
+  }
+  .box-bii{
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    border: 2px solid beige;
+    box-shadow: 0px 0px 5px 1px rgba(255, 196, 2, 0.87);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
+  .bilogen{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    width: 24px;
+    height: 24px;
+
+
+  }
+  .button-logen{
+    height: 40px;
+    width: 110px;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 16px;
+    background-color: aliceblue;
+    border: none;
+
+  }
+  .button-lo{
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 0px 3px 3px 0px;
+
+
+    border: none;
+  }
+  .button-lo:hover{
+    background-color: rgba(255, 183, 0, 0.979);
+    color: white;
+
+  }.button-logen:hover{
+    background-color: rgba(255, 183, 0, 0.979);
+    color: white;
+
+  }
+  @media only screen and (max-width: 767px){    
+    .input-single{
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 240px;
+        float: left;
+        margin-left: 4px;
+        font-size: 16px;
+      }
+
+      .login-new{
+        float: left;
+        margin-left: 35px;
+        margin-top: 380px;
+        background-color: #272e38;
+        width: 250px;
+        height: 110%;
+        border-radius: 5px;
+        
+      }
+     
+      .button-logen{
+        height: 40px;
+        width: 110px;
+        border-radius: 3px 0px 0px 3px;
+        font-size: 16px;
+        background-color: aliceblue;
+        border: none;
+    
+      }
+    
+      .ds{
+        float: left;
+        margin-left: 50px;
+        margin-top: 1px;
+        padding-bottom: 20px;
+       }
+       .bilogen{
+       
+        width: 21px;
+        height: 21px;
+       }
+       .input-single{
+       
+       
+      
+       
+        margin-top:2px ;
+        font-size: 16px;
+      }
+      /*  */
+      .Sl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+  /* @media only screen and (max-width: 768px){    
+    .login-new{
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+      background-color: rgb(255, 8, 0);
+      width: 250px;
+      height: 330px;
+      border-radius: 5px;
+    }
+  }
+  */

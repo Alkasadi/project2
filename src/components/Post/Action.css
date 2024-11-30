@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+.action{
+    justify-content: center;
+    display: flex;
+}
+.group{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 140px;
+    height:48px;
+    display: flex;
+    background-color: rgba(84, 84, 87, 0.26);
+    border-radius: 35px;
+ 
+
+}
+.wirte-action{
+    font-size: 20px;
+    margin: 2px;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fdc21e;
+    float: left;
+    margin-left: 10px;
+
+
+    
+}
+.grop{
+   display: flex;
+   float: left;
+   margin-left: 10px;
+   margin-top: 7px;
+}
+#sv-gr{
+    float: left;
+    margin-top: 0px;
+    margin-left: 2px;
+    /* color: #ffffff; */
+    color: #bababa;
+
+    
+}
+#sv-go{
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 767px){
+    .action{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .group{
+        width:180px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(84, 84, 87, 0.26);
+    }
+    #sv-gr{
+        float: left;
+        margin-top: 0px;
+        margin-left: 10px;
+        color: #bababa;
+    
+        
+    }
+    #sv-go{
+        float: left;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+    .grop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

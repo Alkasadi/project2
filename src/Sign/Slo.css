@@ -1,0 +1,42 @@
+.Slo{
+    float: left;
+    margin-left: 260px;
+    margin-top: 80px;
+   
+}
+.button-Slo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+   width: 550px;
+   height: 170px;
+    flex-wrap:wrap-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    /* background-color: rgba(36, 55, 72, 0.295);
+    border: 1px solid #e6b208; */
+    border: 1px solid rgb(117, 116, 116);
+    box-shadow: 0px 0px 5px 1px #a7a5a1;
+}
+@media only screen and (max-width: 767px){   
+    .Slo{
+        float: left;
+        margin-left: -180px;
+        margin-top: -325px;
+        width: 130px;
+        height: 130px;
+       
+    } 
+
+    .button-Slo{
+        display: none;
+        
+    }
+    .group_Slog{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}

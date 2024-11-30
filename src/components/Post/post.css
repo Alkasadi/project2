@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body{
+    background-color: rgb(25, 26, 37);
+}
+
+
+@media only screen and (min-width:1200px){
+    .box-wirt{
+        float: left;
+        
+        margin-left: 29px;
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 30px;
+        font-family: "Cairo", sans-serif;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600pz;
+        height: 70px;
+        background-color: #272e38;
+        
+    }
+    .box{
+        animation: animate 1.4s linear infinite;
+
+        width: 9px;
+        height: 9px;
+        margin: 1.5px;
+        background-color: rgb(145, 139, 139);
+        
+        border-radius: 50px;
+
+    }
+    .move{
+        color: #fcb900;
+        font-size: 23px;
+
+    }
+   
+    .group-box{
+        display: flex;
+        float: right;
+        margin-right: 70px;
+        margin-top: -25px;
+        
+    }
+    .New-move{
+        align-items: center;
+        justify-content: center;
+        background-color: #575a6b67;
+        
+        border-radius: 20px;
+        width: 120px;
+        height: 46px;
+        float: right;
+        margin-right: 915px;
+
+       
+    }
+    #h3-move{
+        float: left;
+        margin-left:57px ;
+        margin-top: 9px;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+
+
+        
+    }
+    a li{
+        float: right;
+        margin-right: 20px;
+        text-decoration: none;
+        flex-direction: row;
+            font-size: 19px;
+            
+        color: #fcb900;
+        font-family: "Cairo", sans-serif;
+    
+            
+        
+        
+    }
+    .btn-link{
+    
+        align-items: center;
+        background-color: rgba(84, 84, 87, 0.26);
+            border-radius: 100px;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        /* border-radius: none; */
+    }
+    .bi-camera-reels{
+        float: right;
+        margin-right: 0px;
+        margin-top: 10px;
+       
+    }
+    .svg-xmlns{
+        width: 50px;
+        height: 48px;
+        background-color:#333c4b;
+        
+        border-radius: 50px  50px 0px 50px;
+        color: #ffffff;
+        margin-right:30px;
+        float: right;
+    
+    }
+    .btn-group{
+        display: flex;
+        /* background-color:#acaaaa28; */
+        width: 951px;
+        height:90px;
+        
+        float: left;
+        margin-left: 130px;
+        margin-top: 20px;
+        
+      
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+   
+
+    .box-wirt{
+        float: left;
+        
+        margin-left: 29px;
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 30px;
+        font-family: "Cairo", sans-serif;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 70px;
+        background-color: #272e38;
+        
+    }
+    .box{
+        animation: animate 1.4s linear infinite;
+
+        width: 9px;
+        height: 9px;
+        margin: 1.5px;
+        background-color: rgb(145, 139, 139);
+        
+        border-radius: 50px;
+
+    }
+    .move{
+        color: #fcb900;
+        font-size: 21px;
+
+    }
+    @keyframes animate {
+        0%{
+            background-color: #ffffff;
+        }
+        10%{
+            background-color: #e2e2d93b;
+        }
+        50%{
+            background-color: hsl(43, 100%, 99%);
+        }
+        100%{
+            background-color: #c5c3bf;
+        }
+        
+        
+        
+    }
+    .group-box{
+        display: flex;
+        float: right;
+        margin-right: 70px;
+        margin-top: -25px;
+        
+    }
+    .New-move{
+        /* align-items: center; */
+        /* justify-content: center; */
+        background-color: #575a6b67;
+        
+        border-radius: 20px;
+        width: 120px;
+        height: 46px;
+        float: right;
+        margin-right: 23px;
+
+       
+    }
+    #h3-move{
+        float: left;
+        margin-left:52px ;
+        margin-top: 9px;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+
+
+        
+    }
+
+    a li{
+        float: right;
+        margin-right: 20px;
+        text-decoration: none;
+        flex-direction: row;
+        font-size: 19px;
+            
+        color: #fcb900;
+        font-family: "Cairo", sans-serif;
+    
+            
+        
+        
+    }
+    .btn-link{
+    
+        align-items: center;
+        background-color: rgba(84, 84, 87, 0.26);
+        border-radius: 100px;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        /* border-radius: none; */
+    }
+    .bi-camera-reels{
+        float: right;
+        margin-right: 0px;
+        margin-top: 10px;
+       
+    }
+    .svg-xmlns{
+        width: 50px;
+        height: 48px;
+        background-color:#333c4b;
+        
+        border-radius: 50px  50px 0px 50px;
+        color: #ffffff;
+        margin-right:30px;
+        float: right;
+    
+    }
+
+    .btn-group{
+        flex-wrap: wrap;
+        /* background-color:#ffffffa8; */
+  
+        
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+        
+      
+    }
+}
+
+
+.loader {
+     
+    width: 47px;
+
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,#acabab 90%,#83767600);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }

@@ -1,0 +1,17 @@
+.group-anime{
+    background-color: aliceblue;
+    height: 100%;
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 200px;
+    
+    
+}
+.group-anime{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+
+}

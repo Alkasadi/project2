@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.w{
+    background: #171e29; 
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 30px;
+    display: flex;
+}
+.w::-webkit-scrollbar-track{
+
+    background: #1f1b1b00;
+    height: 20px;
+
+}
+.w::-webkit-scrollbar{
+    background: #ec0c0c00;
+    height: 9px;
+}
+.w::-webkit-scrollbar-thumb{
+    background: #0617fd00;
+    
+}
+
+
+
+
+
+
+.titel-link{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(25, 26, 37);
+
+    width: 300px;
+    border-radius: 5px ;
+    height: 100%;
+    display: table-column;
+    box-shadow: 0 0 20px #000000e3;
+    
+}
+h1{
+    color: white;
+    /* font-size: 30px; */
+    font-weight: 600;
+    font-size: 21px;
+    font-family: "Cairo", sans-serif;
+    float: left;
+    margin-top:1px ;
+    margin-left: 71px;
+}
+h4{
+    float: left;
+    margin-top: 0px;
+    margin-left: 92px;
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+
+
+    color: white;
+}
+
+
+.imges{
+    border-radius: 5px 5px 0px 0px;
+    z-index: 100;
+
+
+}
+
+.bi-camera-reels-fill{
+    float: left;
+    margin-left: -140px;
+    margin-top: -5px;
+    color: white;
+
+}
+.b-button:hover{
+    background-color: rgb(163, 3, 3);
+}
+.b-button{    
+    
+    background-color: rgba(84, 84, 87, 0.274);
+    margin: 10px;
+    color: white;
+    /* align-items: center;
+    justify-content: center; */
+    float: left;
+    margin-left: 33px;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 53px;
+    
+   
+
+}
+.titel{
+    color: white;
+}
+.button-work {
+
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    margin-top: -5px;
+
+    float: left;
+    margin-left: 70px;
+    display: flex;
+
+    background-color: rgba(221, 221, 221, 0);
+       
+
+}
+
+
+
+
+
+
+
+
+
+.rating {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row-reverse;
+}
+
+.rating__star:hover,
+.rating__star:hover ~ .rating__star {
+    color: transparent;
+}
+
+
+.rating__star:hover:before,
+.rating__star:hover ~ .rating__star:before {
+    color: #eab308;
+    content: '★';
+    left: 0;
+    position: absolute;
+ 
+}
+
+.rating__star {
+   margin: 10px;
+    color: aliceblue;
+    font-size: 1.5rem;
+
+    /* Reset styles for button */
+    background-color: transparent;
+    border: transparent;
+    margin: 0 2px;
+    padding: 0;
+
+    /* Used to position the hover state */
+    position: relative;
+}

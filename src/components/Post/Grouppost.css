@@ -1,0 +1,18 @@
+.page-exm{
+    float: left;
+    margin-top: 25px;
+    margin-left: 390px;
+}
+.page-link{
+    background-color: rgb(16, 18, 29);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.page-link:hover{
+    background-color: rgb(9, 20, 140);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+}

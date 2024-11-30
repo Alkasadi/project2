@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Changa:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-color: #1f252E;
+
+}
+
+.container-fluid{
+    float: left;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navbar-brand:hover{
+    color: red;
+
+}
+
+.button-link{
+    float: left;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+     height: 40px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+}
+
+.s{
+    float: left;
+    display: flex;
+    color: rgb(240, 2, 2);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+}
+.s:hover{
+    
+    color: rgb(255, 255, 255);
+}
+.dropdown-menu{
+    background-color:#343d4d;
+    border: rgb(228, 226, 226) solid 1px;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+
+}
+
+.dropdown-item{
+    background-color: #343d4d;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+
+
+li{
+   
+    outline: none;
+    list-style-type: none;
+    
+
+}
+.button{
+    background-color: blue;
+}
+
+a::after{
+    content: " ";
+    float: right;
+
+    margin-right: 5px;
+    margin-top: 7px;
+    
+    
+    }
+.dropdown-toggle{
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.active:hover{
+    color: rgb(170, 5, 5);
+}
+
+.dropdown-toggle:hover{
+    color: rgb(170, 5, 5);
+}
+
+
+
+
+a:hover:after{
+    width: 100%;
+    transition: all 0.0s;
+    background-color: rgb(163, 3, 3);
+    border-radius: 4px;
+}
+.navbar-brand{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Cairo", sans-serif;
+    
+} 
+@media only screen and (min-width:1200px){
+    .navbar-brand{
+        float: left;
+        margin-left: 10px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 25px;
+        font-family: "Cairo", sans-serif;
+        
+} 
+
+
+li.nav-item{
+    float: left;
+    margin-left: 20px;
+    outline: none;
+    list-style-type: none;
+    
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+
+
+}
+.navbar-nav{
+    float: left;
+    margin-left: 0px;
+}
+
+.navbar{
+    background-color: #292f3b;
+    height:90px;
+    
+}
+  
+
+
+}
+
+
+@media only screen and (min-width:768px) and(max-width:1023px){
+    .dropdown-item{
+        background-color: #343d4d;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        /* justify-items: center; */
+        align-items: center;
+    }
+ 
+    
+
+    .d-flex{
+        float: left;
+        margin-top: 250px;
+        width: 100%;
+        position: absolute;
+    }
+    .logen{
+        float: left;
+        margin-left: 50px;
+    }
+
+   
+   
+}
+@media only screen and (max-width: 767px){
+   li a.dropdown-item:hover{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        /* justify-items: center; */
+        align-items: center;
+    }
+    
+
+    li.nav-item{
+        float: left;
+        margin-left: 100px;
+    }
+    .button-link{
+      display: none;
+
+
+    }
+   .form-control{
+    display: none;
+   }
+   .btn-outline-success{
+    display: none;
+   }
+   .navbar{
+    background-color: #1f252E;
+
+    
+    
+}
+.navbar-toggler{
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+   
+   
+
+}
+
+.btn-outline-success{
+    background-color: rgba(231, 221, 221, 0);
+    border:rgb(196, 194, 194) solid 2px;
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: rgba(156, 3, 3, 0.986);
+    border:rgb(163, 3, 3) solid 2px;
+    color: white;
+}
+
+.form-control{
+    background-color: rgba(231, 221, 221, 0);
+    border:rgb(230, 224, 224) solid 2px;
+    color: white;
+}
+
